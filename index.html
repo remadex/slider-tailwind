@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/assets/js/main.js" defer></script>
+    <title>Base Tailwind</title>
+  </head>
+  <body class="h-screen w-screen">
+    <div class="relative h-screen w-screen" id="slider">
+      <button
+        type="button"
+        id="nextBtn"
+        onclick="nextSlide()"
+        class="fixed bottom-0 right-0 bg-white w-16 h-16 flex items-center justify-center text-black cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        &#x276F;
+      </button>
+      <button
+        type="button"
+        id="previousBtn"
+        onclick="previousSlide()"
+        class="fixed bottom-0 right-0 bg-white w-16 h-16 mr-16 flex items-center justify-center text-black cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        &#x276E;
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body,
+html {
+  /* Need to add overflow-hidden on html/body to avoid a bug on mobile */
+  @apply overflow-hidden;
+}
+
+.slide {
+  @apply absolute inset-0 w-screen h-screen flex items-center justify-center transition-all ease-in-out duration-500 transform bg-cover;
+}

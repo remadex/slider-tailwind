@@ -9,5 +9,5 @@ html {
 }
 
 .slide {
-  @apply absolute inset-0 w-screen h-screen flex items-center justify-center transition-all ease-in-out duration-500 transform bg-cover;
+  @apply absolute inset-0 w-screen h-screen flex items-center justify-center transition-all ease-in-out duration-500 transform bg-cover bg-center;
 }
